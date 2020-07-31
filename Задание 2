@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Задание 2</title>
+</head>
+
+<body bgcolor=#EAB7F8>
+<form action="#" class="form"style="width: 245px; height: 150px; background-color: #9CF59D; padding: 10px">
+	<p><input type="text" name="name" size="35px" placeholder="Имя" required /></p>
+	<p><input type="email" name="email" size="35px" placeholder="E-Mail" /></p>
+	<p><input type="tel" name="phone" size="35px" placeholder="Телефон" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18"></p>
+	<button type="submit">Отправить</buttom></form>
+	<style> input:invalid:not(:placeholder-shown) {border-color: red;}
+		input:valid:not(:placeholder-shown) {border-color: green;}
+	</style>
+
+</body>
+</html>
